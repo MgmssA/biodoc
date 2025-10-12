@@ -10,6 +10,6 @@ abstract: '<abstract>'
 lang: de
 format:
     biodoc-html:
-        # embed-resources: true
-        # self-contained-math: true
+        embed-resources: false
+        self-contained-math: false
 ---

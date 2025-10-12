@@ -1,4 +1,4 @@
-{{< include _extensions/MgmssA/biodoc/_front_matter.qmd >}}
+{{< include _extensions/MgmssA/biodoc/.includes/_front_matter.qmd >}}
 {{< include _extensions/MgmssA/biodoc/.includes/_init_fontawesome.qmd >}} 
 {{< include _extensions/MgmssA/biodoc/.includes/_katex_macros.qmd >}} 
 
