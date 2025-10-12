@@ -1,4 +1,4 @@
-# <%= title %> Format
+# Biodoc Format
 
 ## Installing
 

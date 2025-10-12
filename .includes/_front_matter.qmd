@@ -1,6 +1,6 @@
 ---
 title: |
-    <p>![](_extensions/MgmssA/biodoc/.style/mgmss_brand_color.png){width=40px}</p>
+    <p>![](.style/mgmss_brand_color.png){width=40px}</p>
     <title>
 subtitle: '<subtitle><br><small><document type></small>'
 date: <creation-date> 
