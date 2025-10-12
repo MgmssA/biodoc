@@ -13,13 +13,11 @@ contributes:
             callout-appearance: default
             callout-icon: true
             html-math-method: katex
-            include-in-header: _extensions/MgmssA/biodoc/.includes/_in_header.html
-            # include-after-body: _extensions/MgmssA/biodoc/.includes/_after_body.html
+            include-in-header: _extensions/biodoc/.includes/_in_header.html
+            # include-after-body: _extensions/biodoc/.includes/_after_body.html
             embed-resources: false
             self-contained-math: false
 engine: knitr
-brand: _extensions/MgmssA/biodoc/.style/_brand.yml
-filters: 
-  - highlight-text
-css: _extensions/MgmssA/biodoc/.style/_style.css
+brand: _extensions/biodoc/.style/_brand.yml
+css: _extensions/biodoc/.style/_style.css
 
