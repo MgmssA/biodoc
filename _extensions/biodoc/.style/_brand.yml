@@ -8,9 +8,9 @@ meta:
     founded: 2007 
 
 logo:
-    small: .style/mgmss_symbol_color.png
-    medium: .style/mgmss_symbol_color.png
-    large: .style/mgmss_symbol_color.svg
+    small: _extensions/MgmssA/biodoc/.style/mgmss_symbol_color.png
+    medium: _extensions/MgmssA/biodoc/.style/mgmss_symbol_color.png
+    large: _extensions/MgmssA/biodoc/.style/mgmss_symbol_color.svg
 
 color:
     palette:
