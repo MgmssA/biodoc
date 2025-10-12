@@ -1,12 +1,6 @@
----
-title: |
-    <p>![](style/mgmss_brand_color.png){width=40px}</p>
-    Bioenergetik - Nahrung und Treibstoff
-format:
-    biodoc-html: default
-author: Călin Aurel Drăgan
-date: last-modified
----
+{{< include _extensions/biodoc/_front_matter.qmd >}}
+{{< include _extensions/biodoc/.includes/_init_fontawesome.qmd >}} 
+{{< include _extensions/biodoc/.includes/_katex_macros.qmd >}} 
 
 ## Introduction
 

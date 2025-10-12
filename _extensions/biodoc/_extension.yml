@@ -6,5 +6,19 @@ contributes:
     formats:
         html:
             toc: true
-            theme: [yeti, custom.scss]
+            toc-depth: 5
+            toc-location: right
+            appendix-style: default
+            callout-appearance: default
+            callout-icon: true
+            html-math-method: katex
+            include-in-header: _extensions/biodoc/.includes/in_header.html
+            # include-after-body: _extensions/biodoc/.includes/after_body.html
+            # embed-resources: true
+            # self-contained-math: true
+engine: knitr
+brand: _extensions/biodoc/style/_brand.yml
+filters: 
+  - highlight-text
+css: _extensions/biodoc/style/style.css
 

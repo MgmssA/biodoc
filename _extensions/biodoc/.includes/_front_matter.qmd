@@ -1,0 +1,15 @@
+---
+title: |
+    <p>![](_extensions/biodoc/style/mgmss_brand_color.png){width=40px}</p>
+    <title>
+subtitle: '<subtitle><br><small><document type></small>'
+date: <creation-date> 
+date-modified: <last-modified>
+author: Călin Aurel Drăgan
+abstract: '<abstract>'
+lang: de
+format:
+    biodoc-html:
+        # embed-resources: true
+        # self-contained-math: true
+---

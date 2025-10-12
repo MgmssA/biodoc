@@ -1,0 +1,4 @@
+$$
+\gdef\sub#1{_{\mathrm{#1}}}
+\gdef\unit#1{\mathrm{#1}}
+$$
