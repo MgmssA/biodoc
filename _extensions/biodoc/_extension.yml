@@ -9,8 +9,8 @@ contributes:
             callout-appearance: default
             callout-icon: true
             html-math-method: katex
-            include-in-header: _extensions/biodoc/.includes/_in_header.html
-            # include-after-body: _extensions/biodoc/.includes/_after_body.html
+            include-in-header: .includes/_in_header.html
+            # include-after-body: .includes/_after_body.html
             embed-resources: false
             self-contained-math: false
 

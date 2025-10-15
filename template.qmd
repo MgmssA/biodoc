@@ -1,6 +1,6 @@
-{{< include _extensions/biodoc/.includes/_front_matter.qmd >}}
-{{< include _extensions/biodoc/.includes/_init_fontawesome.qmd >}} 
-{{< include _extensions/biodoc/.includes/_katex_macros.qmd >}} 
+{{< include .includes/_front_matter.qmd >}}
+{{< include .includes/_init_fontawesome.qmd >}} 
+{{< include .includes/_katex_macros.qmd >}} 
 
 ## Introduction
 
