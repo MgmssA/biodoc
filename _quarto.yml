@@ -1,5 +1,5 @@
 project:
-    type: default
+    type: biodoc
     output-dir: docs
 
 toc: true
