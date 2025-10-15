@@ -14,5 +14,5 @@ format:
         html-math-method: katex
 
 engine: knitr
-brand: _extensions/biodoc/.style/_brand.yml
+brand: _brand.yml
     
