@@ -7,7 +7,6 @@ toc-depth: 5
 toc-location: right
 number-sections: false
 appendix-style: default
-bibliography: references.bib  
   
 format:
     html:
