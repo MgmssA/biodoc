@@ -10,7 +10,7 @@ appendix-style: default
   
 format:
     html:
-        css: .style/_style.css
+        css: _style/_style.css
         html-math-method: katex
 
 engine: knitr

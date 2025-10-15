@@ -1,6 +1,6 @@
-{{< include .includes/_front_matter.qmd >}}
-{{< include .includes/_init_fontawesome.qmd >}} 
-{{< include .includes/_katex_macros.qmd >}} 
+{{< include _includes/_front_matter.qmd >}}
+{{< include _includes/_init_fontawesome.qmd >}} 
+{{< include _includes/_katex_macros.qmd >}} 
 
 ## Introduction
 
