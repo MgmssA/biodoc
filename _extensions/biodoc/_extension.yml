@@ -6,10 +6,6 @@ contributes:
     formats:
         html:
             title-block-banner: true
-            toc: true
-            toc-depth: 5
-            toc-location: right
-            appendix-style: default
             callout-appearance: default
             callout-icon: true
             html-math-method: katex
@@ -17,7 +13,5 @@ contributes:
             # include-after-body: _extensions/biodoc/.includes/_after_body.html
             embed-resources: false
             self-contained-math: false
-engine: knitr
-brand: _extensions/biodoc/.style/_brand.yml
-css: _extensions/biodoc/.style/_style.css
+
 

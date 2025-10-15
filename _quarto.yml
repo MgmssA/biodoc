@@ -1,3 +1,20 @@
 project:
     type: default
     output-dir: docs
+
+toc: true
+toc-depth: 5
+toc-location: right
+number-sections: false
+appendix-style: default
+bibliography: references.bib  
+  
+format:
+    html:
+        css: styles.css
+        html-math-method: katex
+
+engine: knitr
+brand: _extensions/biodoc/.style/_brand.yml
+css: _extensions/biodoc/.style/_style.css
+    
