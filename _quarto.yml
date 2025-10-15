@@ -10,10 +10,9 @@ appendix-style: default
   
 format:
     html:
-        css: styles.css
+        css: _extensions/biodoc/.style/_style.css
         html-math-method: katex
 
 engine: knitr
 brand: _extensions/biodoc/.style/_brand.yml
-css: _extensions/biodoc/.style/_style.css
     
