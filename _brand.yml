@@ -14,20 +14,51 @@ logo:
 
 color:
     palette:
+        # Ivory
         ivory: "#F4F4E7"
-        dark-grey: "#222222"
-        mid-grey: "#3F3F3F"
-        light-grey: "#5C6064"
-        light-blue: "#4d8ac2"
-        jasper: "#D44D39"
-        pear: "#D9E150"
-        dim-grey: "#5D6165"
-        light-green: "#477a43"
-    background: ivory
-    foreground: dark-grey
-    primary: mid-grey
-    secondary: light-grey
-    tertiary: dim-grey
+        ivory-shade-1: "#dbdbcf"
+        ivory-shade-2: "#c3c3b8"
+        ivory-shade-3: "#aaaaa1"
+        ivory-shade-4: "#92928a"
+        ivory-shade-5: "#7a7a73"
+        ivory-shade-6: "#61615c"
+        ivory-shade-7: "#494945"
+        ivory-shade-8: "#30302e"
+        ivory-shade-9: "#181817"
+        # Gray
+        gray-shade-1: "#e5e5e5"
+        gray-shade-2: "#cccccc"
+        gray-shade-3: "#b2b2b2"
+        gray-shade-4: "#999999"
+        gray-shade-5: "#7f7f7f"
+        gray-shade-6: "#666666"
+        gray-shade-7: "#4c4c4c"
+        gray-shade-8: "#333333"
+        gray-shade-9: "#191919"
+        blue: "#4d8ac2"
+        red: "#D44D39"
+        orange: "#F1C232"
+        yellow: "#D9E150"
+        # Green
+        green: "#477a43"
+        green-shade-1: "#3f6d3c"
+        green-shade-2: "#386135"
+        green-shade-3: "#31552e"
+        green-shade-4: "#2a4928"
+        green-shade-5: "#233d21"
+        green-shade-6: "#1c301a"
+        green-shade-7: "#152414"
+        green-shade-8: "#0e180d"
+        green-shade-9: "#070c06"
+    foreground: ivory-shade-9 # The main text color. Typically will be close to black and must have high contrast with the background color.
+    background: ivory #The main background color. Tyically will be close to white and must have high contrast with the foreground color.
+    primary: green-shade-6 # The primary accent color, used for hyperlinks, active states, and primary action buttons.
+    secondary: ivory-shade-7 # The secondary accent color, often used for lighter text or disabled states.
+    tertiary: gray-shade-7 # The tertiary accent color, used for hover states, accents, and wells.
+    success: green # The color used for positive or successful actions and information.
+    info: blue # The color used for neutral or informational actions and information.
+    warning: orange # The color used for warning or cautionary actions and information.
+    danger: red # The color used for errors, dangerous actions, or negative information.
 
 typography:
     fonts: 
@@ -41,6 +72,6 @@ typography:
         family: Fraunces
     headings:
         family: Oxanium
-        color: mid-grey
+        color: ivory-shade-7
     link:
-        color: light-blue
+        color: green-shade-2
