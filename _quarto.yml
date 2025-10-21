@@ -5,6 +5,7 @@ project:
 toc: true
 toc-depth: 5
 toc-location: right
+toc-expand: true
 number-sections: false
 appendix-style: default
   
