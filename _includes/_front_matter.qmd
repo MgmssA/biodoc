@@ -7,10 +7,5 @@ date: 2100-10-10
 date-modified: 2100-10-10
 author: Călin Aurel Drăgan
 abstract: 'Abstract'
-lang: de
 # bibliography: references.bib  
-format:
-    biodoc-html:
-        embed-resources: false
-        self-contained-math: false
 ---
