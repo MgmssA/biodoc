@@ -7,7 +7,10 @@ toc: true
 toc-depth: 5
 toc-location: right
 toc-expand: true
-number-sections: false
+number-sections: true
+crossref: 
+    sec-prefix: Abschnitt
+    chapters: false # If true, then the highest level screws everything up
 appendix-style: default
   
 format:
@@ -16,7 +19,7 @@ format:
           - brand
           - _style/_custom.scss
         css: _style/_style.css
-        # include-in-header: _includes/_in_header.html
+        include-in-header: _includes/_in_header.html
         # include-after-body: _includes/_after_body.html
         embed-resources: false
         self-contained-math: false

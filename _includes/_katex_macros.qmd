@@ -1,8 +1,9 @@
+<!-- Groundwork -->
 $$
 \gdef\sub#1{_{\mathrm{#1}}}
 \gdef\unit#1{\mathrm{#1}}
 $$
-
+<!-- Physical units -->
 $$
 \gdef\celsius{\unit{°C}}
 \gdef\joule{\unit{J}}
@@ -11,7 +12,7 @@ $$
 \gdef\mole{\unit{mol}}
 \gdef\pascal{\unit{Pa}}
 $$
-
+<!-- Combined physical units -->
 $$
 \gdef\joulepermole{\frac{\joule}{\mole}}
 \gdef\jouleperkilogram{\frac{\joule}{\kilogram}}
