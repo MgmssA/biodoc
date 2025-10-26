@@ -7,7 +7,7 @@
    width="150"
    height="210"
    viewBox="0 0 150 210"
-   sodipodi:docname="mgmss_brand_color.svg"
+   sodipodi:docname="mgmss_symbol_color.svg"
    inkscape:version="1.4.2 (ebf0e94, 2025-05-08)"
    inkscape:export-filename="mgmssi_brand_color.png"
    inkscape:export-xdpi="96"
@@ -28,8 +28,8 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
      inkscape:zoom="2.4047356"
-     inkscape:cx="65.07992"
-     inkscape:cy="80.67415"
+     inkscape:cx="65.287843"
+     inkscape:cy="81.089996"
      inkscape:window-width="1883"
      inkscape:window-height="1055"
      inkscape:window-x="37"
@@ -58,35 +58,35 @@
      id="g1"
      transform="translate(-70,-40)">
     <rect
-       style="fill:#d24f3f;fill-opacity:1;stroke:none;stroke-width:0.774597;stroke-opacity:1"
+       style="fill:#477a43;fill-opacity:1;stroke:none;stroke-width:0.774597;stroke-opacity:1"
        id="rect1"
        width="30"
        height="100"
        x="100"
        y="40" />
     <rect
-       style="fill:#d24f3f;fill-opacity:1;stroke:none;stroke-width:0.774597;stroke-opacity:1"
+       style="fill:#477a43;fill-opacity:1;stroke:none;stroke-width:0.774597;stroke-opacity:1"
        id="rect1-3"
        width="30.000008"
        height="100"
        x="160"
        y="40" />
     <rect
-       style="fill:#d24f3f;fill-opacity:1;stroke:none;stroke-width:0.547722;stroke-opacity:1"
+       style="fill:#477a43;fill-opacity:1;stroke:none;stroke-width:0.547722;stroke-opacity:1"
        id="rect1-3-1"
        width="30"
        height="49.999996"
        x="70"
        y="140" />
     <rect
-       style="fill:#d24f3f;fill-opacity:1;stroke:none;stroke-width:0.547722;stroke-opacity:1"
+       style="fill:#477a43;fill-opacity:1;stroke:none;stroke-width:0.547722;stroke-opacity:1"
        id="rect1-3-1-3"
        width="30"
        height="50"
        x="130"
        y="140" />
     <rect
-       style="fill:#d24f3f;fill-opacity:1;stroke:none;stroke-width:0.547722;stroke-opacity:1"
+       style="fill:#477a43;fill-opacity:1;stroke:none;stroke-width:0.547722;stroke-opacity:1"
        id="rect1-3-1-3-6"
        width="30"
        height="50"
@@ -97,7 +97,7 @@
        inkscape:export-ydpi="96" />
     <text
        xml:space="preserve"
-       style="font-size:66.7204px;font-family:'Bitstream Vera Sans';-inkscape-font-specification:'Bitstream Vera Sans';text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;opacity:1;fill:#d24f3f;fill-opacity:1;stroke-width:1.0524"
+       style="font-size:66.7204px;font-family:'Bitstream Vera Sans';-inkscape-font-specification:'Bitstream Vera Sans';text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;opacity:1;fill:#477a43;fill-opacity:1;stroke-width:1.0524"
        x="63.379826"
        y="256.64081"
        id="text1"
@@ -106,6 +106,6 @@
          id="tspan1"
          x="63.379826"
          y="256.64081"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:66.7204px;font-family:'Nimbus Sans';-inkscape-font-specification:'Nimbus Sans Bold';fill:#d24f3f;fill-opacity:1;stroke-width:1.0524">MGS</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:66.7204px;font-family:'Nimbus Sans';-inkscape-font-specification:'Nimbus Sans Bold';fill:#477a43;fill-opacity:1;stroke-width:1.0524">MGS</tspan></text>
   </g>
 </svg>
