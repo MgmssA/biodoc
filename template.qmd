@@ -11,3 +11,25 @@
 
 You can learn more about controlling the appearance of HTML output here: <https://quarto.org/docs/output-formats/html-basics.html>
 
+```{r}
+#| label: fig-number-ray
+#| fig-cap: "Der Zahlenstrahl"
+#| fig-height: 2
+
+# Sample data
+x <- rnorm(20)
+y <- rnorm(20)
+df <- data.frame(x, y)
+
+# Create the plot without the y-axis
+ggplot2::ggplot(df, ggplot2::aes(x, y)) +
+    ggplot2::geom_point() +
+    ggplot_theme +
+    ggplot2::theme(
+        axis.line.y = ggplot2::element_blank(),
+        axis.ticks.y = ggplot2::element_blank(),
+        axis.text.y = ggplot2::element_blank(),
+        axis.title.y = ggplot2::element_blank()
+    )
+```
+
