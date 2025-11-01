@@ -9,6 +9,8 @@ $$
 \gdef\joule{\unit{J}}
 \gdef\kelvin{\unit{K}}
 \gdef\kilogram{\unit{kg}}
+\gdef\liter{\unit{L}}
+\gdef\milliliter{\unit{mL}}
 \gdef\meter{\unit{m}}
 \gdef\mole{\unit{mol}}
 \gdef\newton{\unit{N}}
@@ -25,6 +27,6 @@ $$
 \gdef\joulepermole{\frac{\joule}{\mole}}
 \gdef\jouleperkilogram{\frac{\joule}{\kilogram}}
 \gdef\jouleperkelvin{\frac{\joule}{\kelvin}}
-\gdef\jouleperkelvinperkilogram{\frac{\joule}{\kelvin\,\kilogram}}
-\gdef\jouleperkelvinpermole{\frac{\joule}{\kelvin\,\mole}}
+\gdef\jouleperkilogramperkelvin{\frac{\joule}{\kilogram\,\kelvin}}
+\gdef\joulepermoleperkelvin{\frac{\joule}{\mole\,\kelvin}}
 $$
