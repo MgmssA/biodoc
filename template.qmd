@@ -5,7 +5,7 @@
 
 ## Introduction
 
-This template is appllicable to biology documents rendered in HTML via Quarto. This is a chemical $\ce{H2SO4 (aq)}$. The physical unit is $\jouleperkilogramperkelvin$.
+This template is appllicable to biology documents rendered in HTML via Quarto. This is a chemical $\ce{H2SO4 (aq)}$. The physical unit is $\jouleperkilogramperkelvin$. This is [green]{fg="green"}.
 
 ### Elements
 
