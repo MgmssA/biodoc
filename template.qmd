@@ -5,7 +5,22 @@
 
 ## Introduction
 
-*TODO* Create an example file that demonstrates the formatting and features of your format.
+This template is appllicable to biology documents rendered in HTML via Quarto. This is a chemical $\ce{H2SO4 (aq)}$. The physical unit is $\jouleperkilogramperkelvin$.
+
+### Elements
+
+```{mermaid}
+%%| fig-height: 3
+%%| label: fig-metabolism-equilibrium
+%%| fig-cap: Leben braucht irgendetwas was es zu etwas anderem umsetzt. Dieser Stoffwechsel ist einer der fundamentalen Eigenschaften des Lebens. 
+flowchart LR
+    Rein@{shape: circle} --> Leben@{shape: circ, label: "Leben"}
+    Leben --> Raus@{shape: circle}
+
+    style Rein fill:#F4F4E7,stroke:#F4F4E7;
+    style Leben stroke:#F4F4E7;
+    style Raus fill:#F4F4E7,stroke:#F4F4E7;
+```
 
 ## More Information
 

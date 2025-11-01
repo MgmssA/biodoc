@@ -20,10 +20,6 @@ format:
           - brand
           - _style/_custom.scss
         css: _style/_style.css
-        include-in-header: _includes/_in_header.html
-        # include-after-body: _includes/_after_body.html
-        embed-resources: false
-        self-contained-math: false
 
 engine: knitr
 execute:

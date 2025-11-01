@@ -8,5 +8,10 @@ date-modified: 2100-10-10
 author: Călin Aurel Drăgan
 abstract: 'Abstract'
 # bibliography: references.bib
-format: biodoc-html
+format: 
+    biodoc-html:
+        include-in-header: _includes/_in_header.html
+        # include-after-body: _includes/_after_body.html
+        embed-resources: false
+        self-contained-math: false
 ---
