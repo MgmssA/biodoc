@@ -1,6 +1,6 @@
 ---
 title: |
-    <p>![](_style/mgmss_symbol_color.png){width=40px}</p>
+    <p>![](style/mgmss_symbol_color.png){width=40px}</p>
     Title
 subtitle: 'Subtitle<br><small>Document type</small>'
 date: 2100-10-10 
