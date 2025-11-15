@@ -15,6 +15,7 @@ format:
         embed-resources: false
         self-contained-math: false
 has-math: true
+show-rating: false
 # filters:
 #   - highlight-text
 ---
