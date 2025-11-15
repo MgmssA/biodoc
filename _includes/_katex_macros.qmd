@@ -1,3 +1,7 @@
+::: {.content-hidden unless-meta="has-math"}
+
+::: {.hidden}
+
 <!-- Groundwork -->
 $$
 \gdef\sub#1{_{\mathrm{#1}}}
@@ -39,3 +43,7 @@ $$
 \gdef\kilojouleperkilogramperkelvin{\frac{\kilojoule}{\kilogram\,\kelvin}}
 \gdef\kilojoulepermoleperkelvin{\frac{\kilojoule}{\mole\,\kelvin}}
 $$
+
+:::
+
+:::
