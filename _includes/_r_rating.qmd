@@ -15,7 +15,13 @@ Zusammen ergibt das `{r} level_1_total_points + level_2_total_points + level_3_t
 
 rating <- openxlsx2::read_xlsx(
     here::here("data/percentage_rating.xlsx"),
-    sheet = "Rating"
+    sheet = "Rating",
+    types = c(
+        percent_start = "numeric",
+        percent_end = "numeric",
+        grade_points = "numeric",
+        grade_level = "character"
+    )
 ) |>
     dplyr::mutate(
         points_start = (percent_start / 100 * total_points) |> round(),
