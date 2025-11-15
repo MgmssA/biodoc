@@ -1,0 +1,53 @@
+::: {.content-hidden unless-meta="has-rating"}
+
+## Punkte{.unnumbered}
+
+Die Gesamtpunktanzahl ohne Multiplikatoren ist `{r} total_points`. Für die Benotung ist die Punktanzahl ohne Multiplikatoren entscheidend. Mit Multiplikatoren ergeben sich für die unterschiedlichen Anforderungsstufen folgende maximale Punktanzahlen:
+
+- Stufe I: `{r} level_1_total_points` Punkte,
+- Stufe II: `{r} level_2_total_points` Punkte,
+- Stufe III: `{r} level_3_total_points` Punkte.
+
+Zusammen ergibt das `{r} level_1_total_points + level_2_total_points + level_3_total_points`. Diese Zahl ist größer als die Gesamtpunktanzahl ohne Multiplikatoren. Das heisst, Du kannst eine Note "Sehr gut" durchaus mit Aufgaben aus Stufe I und II erreichen; aber es sind dann mehr Aufgaben. Die genaue Verteilung der Prozent- und Punktbereiche mit den dazugehörigen Noten entnimmst Du der folgenden Tabelle. 
+
+```{r}
+#| output: false
+
+rating <- openxlsx2::read_xlsx(
+    here::here("data/percentage_rating.xlsx"),
+    sheet = "Rating"
+) |>
+    dplyr::mutate(
+        points_start = (percent_start / 100 * total_points) |> round(),
+        .after = percent_end
+    ) |>
+    dplyr::mutate(
+        points_end = (percent_end / 100 * total_points) |> ceiling(),
+        .after = points_start
+    ) |>
+    dplyr::mutate(
+        percent = glue::glue('{percent_start} bis {percent_end}'),
+        .after = percent_end
+    ) |>
+    dplyr::mutate(
+        points = glue::glue('{points_start} bis {points_end}'),
+        .after = points_end
+    ) |>
+    dplyr::select(-percent_start, -percent_end, -points_start, -points_end)
+
+```
+
+```{r}
+rating |>
+    gt::gt() |>
+    gt::cols_label(
+        percent = "Prozentbereich, {{%}}",
+        points = "Punktebereich",
+        grade_points = "Notenpunkte",
+        grade_level = "Notenstufe"
+    ) |>
+    gt_theme()
+
+```
+
+:::

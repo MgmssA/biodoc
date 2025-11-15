@@ -5,7 +5,7 @@
 #| output: false
 
 ggplot_theme <- quarto::theme_brand_ggplot2(here::here("_brand.yml"))
-gt_theme <- function quarto::theme_brand_gt(here::here("_brand.yml"))
+gt_theme <- quarto::theme_brand_gt(here::here("_brand.yml"))
 
 ```
 
