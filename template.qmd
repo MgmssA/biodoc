@@ -2,10 +2,17 @@
 {{< include _includes/_init_fontawesome.qmd >}} 
 {{< include _includes/_katex_macros.qmd >}} 
 {{< include _includes/_r_themes.qmd >}}
+<!-- {{< include _includes/_r_rating_init.qmd >}} -->
+
+<!-- {{< include _level_1.qmd >}} -->
+<!-- {{< include _level_2.qmd >}} -->
+<!-- {{< include _level_3.qmd >}} -->
+
+<!-- {{< include _includes/_r_rating.qmd >}} -->
 
 ## Introduction
 
-This template is appllicable to biology documents rendered in HTML via Quarto. This is a chemical $\ce{H2SO4 (aq)}$. The physical unit is $\jouleperkilogramperkelvin$. This is [green]{fg="green"}.
+This template is applicable to biology documents rendered in HTML via Quarto. This is a chemical $\ce{H2SO4 (aq)}$. The physical unit is $\jouleperkilogramperkelvin$. This is [green]{fg="green"}.
 
 ### Elements
 

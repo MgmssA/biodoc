@@ -1,0 +1,26 @@
+::: {.content-hidden unless-meta="has-rating"}
+
+:::{.hidden}
+
+```{r}
+#| output: false
+
+points <- 0
+max_points <- 0
+level_1_points <- 0
+level_2_points <- 0
+level_3_points <- 0
+level_1_max_points <- 0
+level_2_max_points <- 0
+level_3_max_points <- 0
+level_1_total_points <- 0
+level_2_total_points <- 0
+level_3_total_points <- 0
+total_points <- 0
+level_1_multiplier <- 1
+level_2_multiplier <- 2
+level_3_multiplier <- 3
+
+```
+
+:::
